@@ -1,0 +1,72 @@
+{ // JasmineWS.uk Snippets v1.0.4 | MIT License | Copyright 2023 - 2026 JasmineDesign.com
+  // github.com/jasminedesign/jwsone | github.com/jasminedesign/jwstwo
+  "jwshead": {
+    "scope": "html",
+    "prefix": "jwshead",
+    "description": "A snippet to add head",
+    "body": [
+      "<meta name=\"description\" content=\"${1:Your Description Here}\">",
+      "<meta name=\"author\" content=\"${2:Your Name Here}\">",
+      "<link rel=\"stylesheet\" href=\"../css/style.css\">",
+    ]
+},
+  "jwspage": {
+    "scope": "html",
+    "prefix": "jwspage",
+    "description": "A snippet to add page sections",
+    "body": [
+      "<header>",
+      "<h1>${1:heading1}</h1>",
+      "</header>",
+      "<main>",
+      "<div class=\"panel_full\">",
+      "<div class=\"\">",
+      "</div>",
+      "</div>",
+      "<div class=\"panel_full\">",
+      "<div class=\"\">",
+      "</div>",
+      "</div>",
+      "</main>",
+      "<footer>",
+      "<div class=\"social_icons\">",
+      "</div>",
+      "<div class=\"contact_panel\">",
+      "</div>",
+      "<div class=\"copyrights\">",
+      "<p>Copyright &copy; <time datetime=\"2026\">2026</time> </p>",
+      "</div>",
+      "</footer>"
+    ]
+},
+    "jwsnav": {
+      "scope": "html",
+      "prefix": "jwsnav",
+      "description": "A snippet to add navigation",
+      "body": [
+        "<nav>",
+        "<ul>",
+        "<li><a href=\"../\">${1:name}</a></li>",
+        "<li><a href=\"../${2:url}\" aria-current=\"page\">${3:name}</a></li>",
+        "<li><a href=\"../${4:url}\">${5:name}</a></li>",
+        "</ul>",
+        "</nav>"
+      ]
+},
+    "jwsform": {
+      "scope": "html",
+      "prefix": "jwsform",
+      "description": "A snippet to add form",
+      "body": [
+        "<form>",
+        "<label for=\"name\">Label text<span class=\"required\">* </span></label>",
+        "<input type=\"text\"id=\"name\" name=\"name\" value=\"\">",
+        "<label for=\"comments\">Label text<span class=\"required\">* </span></label>",
+        "<textarea rows=\"5\" cols=\"20\" id=\"comments\" name=\"comments\"></textarea>",
+          "<button type=\"submit\" value=\"Submit\">Submit</button>",
+          "<p class=\"error\">This is a form Error Message.</p>",
+          "<p class=\"required\">* required field.</p>",
+        "</form>"
+    ]
+}
+}
